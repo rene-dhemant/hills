@@ -1,0 +1,205 @@
+
+.tractorContainer {
+    position: absolute;
+}
+
+#tractorContainer1 {
+    width: 2.2vw;
+    height: 1.8vw;
+    left: 3%;
+    bottom: 15%;
+}
+
+#tractorContainer2 {
+    width: 2vw;
+    height: 1.64vw;
+    right: 3%;
+    bottom: 27%;
+    opacity: 90;
+}
+
+#tractorContainer3 {
+    width: 1.7vw;
+    height: 1.39vw;
+    right: 40%;
+    bottom: 38%;
+    transform: scaleX(-1);
+    opacity: 85;
+}
+
+#tractorContainer4 {
+    width: 1.3vw;
+    height: 1.07vw;
+    right: 28%;
+    bottom: 45%;
+    transform: scaleX(-1);
+    opacity: 80;
+}
+
+#tractorContainer5 {
+    width: 1vw;
+    height: 0.82vw;
+    left: 25%;
+    bottom: 50%;
+    transform: scaleX(-1);
+    opacity: 75;
+}
+
+.tractorBody {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.engine {
+    background-color: #957060;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -4%;
+}
+
+.grill {
+    width: 70%;
+    height: 60%;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grillItem {
+    background-color: #4a3752;
+    width: 10%;
+    height: 100%;
+    border-radius: 20%;
+}
+
+.exhaust {
+    position: absolute;
+    right: 60%;
+    bottom: 70%;
+    width: 20%;
+    height: 130%;
+}
+
+.exhaustTop {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    background-color: #523e41;
+    border-radius: 50%;
+}
+
+.exhaustBottom {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #694f52;
+    border-radius: 50%;
+}
+
+.drive {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: -10%;  
+}
+
+.driveLeft, .driveRight{
+    background-color: #957060;
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+}
+
+.driveLeft {
+    width: 50%;
+    height: 100%;
+    transform: skew(-5deg);
+}
+
+.driveRight {
+    width: 50%;
+    height: 100%;
+    transform: translateX(80%) skew(5deg);
+}
+
+.driveGlass {
+    width: 60%;
+    height: 38%;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.driveGlassLeft, .driveGlassRight{
+    background-color: #cbb294;
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+}
+
+.driveGlassLeft {
+    width: 50%;
+    height: 100%;
+    transform: skew(-2deg);
+}
+
+.driveGlassRight {
+    width: 50%;
+    height: 100%;
+    transform: translateX(80%) skew(2deg);
+}
+
+.bigWheel {
+    width: 55%;
+    height: 60%;
+    background-color: #4a3752;
+    position: absolute;
+    left: -30%;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigWheelMetal {
+    background-color: #cbb294;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    transform: translateY(5%);
+}
+
+.smallWheel {
+    width: 40%;
+    height: 45%;
+    background-color: #4a3752;
+    position: absolute;
+    right: -24%;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallWheelMetal {
+    background-color: #cbb294;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    transform: translateY(5%);
+}

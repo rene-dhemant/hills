@@ -1,0 +1,68 @@
+
+.cometContainer {
+    display: flex;
+    position: absolute;
+}
+
+
+.comets {
+    background-color: #f8edc0;
+}
+
+#comet1Rotate {
+    transform: rotate(25deg);
+}
+
+#comet2Rotate {
+    transform: rotate(40deg);
+}
+
+#comet1Container {
+    width: 24vw;
+    height: 0.3vw;
+    top: 8vw;
+    left: 7vw;
+    opacity: 30%;
+    animation: cometAnimation 10s linear 0s infinite forwards;
+}
+
+#comet2Container {
+    width: 25vw;
+    height: 0.25vw;
+    top: 10vw;
+    left: 4vw;
+    opacity: 40%;
+    animation: cometAnimation 15s linear 0s infinite forwards;
+}
+
+@keyframes cometAnimation {
+    0% {transform: translate(-200%, -150%);}
+    100% {transform: translate(300%, 300%);}
+}
+
+#cometTail {
+    flex-basis: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cometTop {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 100%;
+}
+
+
+#cometBot {
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 100%;
+}
+
+#cometHead {
+    width: 2.5%;
+    height: 100%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}

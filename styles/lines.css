@@ -1,0 +1,162 @@
+
+.lines {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#hill6 .lines {
+    height: 80%;
+}
+
+#hill4 .lines {
+    height: 160%;
+}
+
+.line, .lineReverse {
+    background-color: #ffffff33;
+    mix-blend-mode: overlay;
+    width: 80%;
+    height: 0.3vw;
+    margin-top: 0.45vw;
+    margin-bottom: 0.45vw;
+    position: relative;
+    top: 0;
+}
+
+#hill .line {
+    z-index: 20;
+    background-color: #ffffff55;  
+}
+
+.line1Reverse {
+    right: 10%;
+}
+
+.line2Reverse {
+    right: 30%;
+}
+
+.line3Reverse {
+    right: -20%;
+}
+
+.line4Reverse {
+    right: 50%;
+}
+
+.line5Reverse {
+    right: -10%;
+}
+
+.line6Reverse {
+    right: 15%;
+}
+
+.line7Reverse {
+    right: 30%;
+}
+
+.line8Reverse {
+    right: -20%;
+}
+
+.line9Reverse {
+    right: 10%;
+}
+
+.line10Reverse {
+    right: 20%;
+}
+
+.line11Reverse {
+    right: 40%;
+}
+
+.line12Reverse {
+    right: -5%;
+}
+
+.line13Reverse {
+    right: 15%;
+}
+
+.line14Reverse {
+    right: 30%;
+}
+
+.line15Reverse {
+    right: 45%;
+}
+
+.line16Reverse {
+    right: -25%;
+}
+
+.line1 {
+    left: 10%;
+}
+
+.line2 {
+    left: 30%;
+}
+
+.line3 {
+    left: -20%;
+}
+
+.line4 {
+    left: 50%;
+}
+
+.line5 {
+    left: -10%;
+}
+
+.line6 {
+    left: 15%;
+}
+
+.line7 {
+    left: 30%;
+}
+
+.line8 {
+    left: -20%;
+}
+
+.line9 {
+    left: 10%;
+}
+
+.line10 {
+    left: 20%;
+}
+
+.line11 {
+    left: 40%;
+}
+
+.line12 {
+    left: -5%;
+}
+
+.line13 {
+    left: 15%;
+}
+
+.line14 {
+    left: 30%;
+}
+
+.line15 {
+    left: 45%;
+}
+
+.line1 {
+    left: -25%;
+}

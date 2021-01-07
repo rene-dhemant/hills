@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(12, 0, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+svg {
+    position: absolute;
+}
+
+#container {
+    width: 60vw;
+    height: 42.42vw;
+    background: radial-gradient(farthest-corner at 50% 47%, #c44443, #6128a9);
+    overflow: hidden;
+    position: relative;
+}
+
+#sun {
+    width: 27%;
+    height: 34%;
+    background: radial-gradient(farthest-corner at 50% 50%, #db9148, #da9351);
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sun svg {
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+#glare {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(closest-side at 50% 50%, #c74d4499, #c7744400);
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: overlay;
+}

@@ -1,0 +1,140 @@
+.cloudContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud {
+   background-color: ivory;
+   height: 33.33%;
+   border-radius: 0.5vw;
+}
+
+@keyframes cloudAnimation {
+    from {transform: translateX(-300%);}
+    to {transform: translateX(500%);}
+}
+
+#cloud1Container {
+    position: absolute;
+    width: 20vw;
+    height: 5.5vw;
+    top: 7vw;
+    left: -2vw;
+    opacity: 12%;
+    animation: cloudAnimation 15s linear 0s infinite forwards;
+}
+
+#cloud1Top {
+    width: 100%;
+    transform: translateX(-7vw) translateY(0.5vw);
+}
+
+#cloud1Mid {
+    width: 100%;
+    transform: translateX(5vw);
+}
+
+#cloud1Bot {
+    width: 100%;
+    transform: translateX(0vw) translateY(-0.5vw);
+}
+
+#cloud2Container {
+    position: absolute;
+    width: 20vw;
+    height: 5vw;
+    top: 15vw;
+    left: -7vw;
+    opacity: 8%;
+    animation: cloudAnimation 15s linear 0s infinite reverse forwards;
+}
+
+#cloud2Top {
+    width: 100%;
+    transform: translateX(3vw) translateY(0.5vw);
+}
+
+#cloud2Mid {
+    width: 100%;
+    transform: translateX(-5vw);
+}
+
+#cloud2Bot {
+    width: 100%;
+    transform: translateX(0vw) translateY(-0.5vw);
+}
+
+#cloud3Container {
+    position: absolute;
+    width: 25vw;
+    height: 5vw;
+    top: 2vw;
+    left: 15vw;
+    opacity: 9%;
+    animation: cloudAnimation 15s linear 0s infinite forwards;
+}
+
+#cloud3Top {
+    width: 80%;
+    transform: translateX(3vw) translateY(0.5vw);
+}
+
+#cloud3Mid {
+    width: 100%;
+    transform: translateX(0vw);
+}
+
+#cloud3Bot {
+    width: 100%;
+    transform: translateX(5vw) translateY(-0.5vw);
+}
+
+#cloud4Container {
+    position: absolute;
+    width: 25vw;
+    height: 5vw;
+    top: 7vw;
+    right: -5vw;
+    opacity: 9%;
+    animation: cloudAnimation 15s linear 0s infinite reverse forwards;
+}
+
+#cloud4Top {
+    width: 80%;
+    transform: translateX(8vw) translateY(0.5vw);
+}
+
+#cloud4Mid {
+    width: 100%;
+    transform: translateX(0vw);
+}
+
+#cloud4Bot {
+    width: 100%;
+    transform: translateX(4vw) translateY(-0.5vw);
+}
+
+#cloud5Container {
+    position: absolute;
+    width: 30vw;
+    height: 5vw;
+    top: 14vw;
+    right: 7vw;
+    opacity: 9%;
+    animation: cloudAnimation 15s linear 0s infinite forwards;
+}
+
+#cloud5Top {
+    width: 70%;
+    transform: translateX(3vw) translateY(0.5vw);
+}
+
+#cloud5Mid {
+    width: 100%;
+    transform: translateX(-3vw);
+}
+
+#cloud5Bot {
+    width: 100%;
+    transform: translateX(5vw) translateY(-0.5vw);
+}

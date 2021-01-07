@@ -1,0 +1,129 @@
+
+.kite {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes kiteAnimation {
+    0% {transform: rotate(-20deg);}
+    100% {transform:  rotate(20deg);}
+}
+
+.kiteContainer {
+    display: flex;
+    position: absolute;
+    /* animation: kiteAnimation 2.5s linear 0s infinite alternate forwards; */
+}
+
+
+.kiteWire {
+    background-color: #4a3752;
+    height: 0.007vw;
+    position: absolute;
+}
+
+#kite1Wire {
+    width: 18.2vw;
+    top: 73%;
+    left: 53vw;
+    transform-origin: top left;
+    animation: kite1Wire 2.5s linear 0s infinite alternate forwards;
+}
+
+@keyframes kite1Wire {
+    0% { transform: rotate(-122deg);}
+    100% {transform: rotate(-118deg);}
+}
+
+#kite1Container {
+    width: 1.8vw;
+    height: 0.18vw;
+    top: 0;
+    right: 0;
+    transform: translate(45%, -140%) rotate(90deg);
+    align-items: center;
+}
+
+.kite1 {
+    background-color: rgb(0, 73, 73);
+}
+
+#kite2Wire {
+    width: 16.5vw;
+    top: 55%;
+    left: 45vw;
+    transform-origin: top left;
+    /* transform: rotate(-68deg); */
+    animation: kite2Wire 2.5s linear 0s infinite alternate forwards;
+}
+
+@keyframes kite2Wire {
+    0% { transform: rotate(-66deg);}
+    100% {transform: rotate(-70deg);}
+}
+
+#kite2Container {
+    width: 1.2vw;
+    height: 0.2vw;
+    top: 0;
+    right: 0;
+    transform: translate(45%, 0%) rotate(90deg) scaleX(-1);
+    align-items: center;
+}
+
+.kite2 {
+    background-color: rgb(194, 194, 165);
+}
+
+#kite3Wire {
+    width: 26.1vw;
+    top: 85%;
+    left: 7vw;
+    transform-origin: top left;
+    transform: rotate(-73.5deg);
+    animation: kite3Wire 2.5s linear 0s infinite alternate forwards;
+}
+
+@keyframes kite3Wire {
+    0% { transform: rotate(-75.5deg);}
+    100% {transform: rotate(-71.5deg);}
+}
+
+#kite3Container {
+    width: 2.1vw;
+    height: .22vw;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -150%) rotate(50deg);
+    align-items: center;
+}
+
+.kite3 {
+    background-color: rgb(79, 82, 133);
+}
+
+.kiteTail {
+    flex-basis: 70%;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.kiteTop {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 100%;
+}
+
+
+.iteBot {
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 100%;
+}
+
+.kiteHead {
+    flex-basis: 30%;
+    height: 100%;
+    transform: skew(-10deg) rotate(10deg) translateX(-50%) translateY(50%);
+}

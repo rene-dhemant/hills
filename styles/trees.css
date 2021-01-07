@@ -1,0 +1,559 @@
+
+
+@keyframes bushAnimation {
+    0% {transform: rotate(-3deg);}
+    100% {transform:  rotate(3deg);}
+}
+
+
+@keyframes treeAnimation {
+    0% {transform: rotate(-5deg);}
+    100% {transform:  rotate(5deg);}
+}
+
+.bushContainer {
+    position: absolute;
+    transform-origin: center bottom;
+    animation: treeAnimation 2.5s linear 0s infinite alternate forwards;
+}
+
+#bush1Container {
+    bottom: 15%;
+    left: 48%;
+    width: 1.1vw;
+    height: 0.73vw;
+}
+
+#bush2Container {
+    bottom: 15%;
+    left: 23%;
+    width: 0.9vw;
+    height: 0.6vw;
+}
+
+#bush3Container {
+    bottom: 15%;
+    left: 8%;
+    width: 0.8vw;
+    height: 0.54vw;
+}
+
+#bush4Container {
+    bottom: 27%;
+    right: 46%;
+    width: 0.8vw;
+    height: 0.54vw;
+}
+
+#bush5Container {
+    bottom: 27%;
+    right: 35%;
+    width: 0.75vw;
+    height: 0.50vw;
+}
+
+#bush6Container {
+    bottom: 27%;
+    right: 26%;
+    width: 0.82vw;
+    height: 0.55vw;
+}
+
+#bush7Container {
+    bottom: 38%;
+    left: 48%;
+    width: 0.65vw;
+    height: 0.43vw;
+}
+
+#bush8Container {
+    bottom: 38%;
+    left: 28%;
+    width: 0.65vw;
+    height: 0.43vw;
+}
+
+#bush9Container {
+    bottom: 38%;
+    left: 21%;
+    width: 0.65vw;
+    height: 0.43vw;
+}
+
+#bush10Container {
+    bottom: 38%;
+    left: 6%;
+    width: 0.65vw;
+    height: 0.43vw;
+}
+
+#bush11Container {
+    bottom: 45%;
+    right: 45%;
+    width: 0.55vw;
+    height: 0.34vw;
+}
+
+#bush12Container {
+    bottom: 45%;
+    right: 36%;
+    width: 0.55vw;
+    height: 0.34vw;
+}
+
+#bush13Container {
+    bottom: 45%;
+    right: 5%;
+    width: 0.55vw;
+    height: 0.34vw;
+}
+
+#bush14Container {
+    bottom: 50%;
+    left: 30%;
+    width: 0.48vw;
+    height: 0.32vw;
+}
+
+#bush15Container {
+    bottom: 50%;
+    left: 23%;
+    width: 0.48vw;
+    height: 0.32vw;
+}
+
+#bush16Container {
+    bottom: 50%;
+    left: 1%;
+    width: 0.48vw;
+    height: 0.32vw;
+}
+
+.ChrisTreeContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transform-origin: center bottom;
+    animation: treeAnimation 2.5s linear 0s infinite alternate forwards;
+}
+
+#ChrisTree1Container {
+    bottom: 15%;
+    left: 2%;
+    width: 1.4vw;
+    height: 3.5vw;
+}
+
+#ChrisTree2Container {
+    bottom: 15%;
+    left: 7%;
+    width: 1.32vw;
+    height: 3.3vw;
+}
+
+#ChrisTree3Container {
+    bottom: 15%;
+    left: 28%;
+    width: 0.9vw;
+    height: 2.2vw;
+}
+
+#ChrisTree4Container {
+    bottom: 15%;
+    left: 36%;
+    width: 0.85vw;
+    height: 2.1vw;
+}
+
+#ChrisTree5Container {
+    bottom: 27%;
+    right: 33%;
+    width: 0.8vw;
+    height: 2vw;
+}
+
+#ChrisTree6Container {
+    bottom: 27%;
+    right: 36%;
+    width: 0.72vw;
+    height: 1.8vw;
+}
+
+#ChrisTree7Container {
+    bottom: 27%;
+    right: 10%;
+    width: 0.8vw;
+    height: 2vw;
+}
+
+#ChrisTree8Container {
+    bottom: 27%;
+    right: 5%;
+    width: 0.72vw;
+    height: 1.8vw;
+}
+
+#ChrisTree9Container {
+    bottom: 38%;
+    left: -0.3%;
+    width: 0.68vw;
+    height: 1.7vw;
+}
+
+#ChrisTree10Container {
+    bottom: 38%;
+    left: 21%;
+    width: 0.6vw;
+    height: 1.5vw;
+}
+
+#ChrisTree11Container {
+    bottom: 38%;
+    left: 26%;
+    width: 0.56vw;
+    height: 1.4vw;
+}
+
+#ChrisTree12Container {
+    bottom: 38%;
+    left: 45%;
+    width: 0.68vw;
+    height: 1.7vw;
+}
+
+#ChrisTree13Container {
+    bottom: 38%;
+    left: 49%;
+    width: 0.72vw;
+    height: 1.8vw;
+}
+
+#ChrisTree14Container {
+    bottom: 45%;
+    right: 3%;
+    width: 0.52vw;
+    height: 1.3vw;
+}
+
+#ChrisTree15Container {
+    bottom: 45%;
+    right: 13%;
+    width: 0.52vw;
+    height: 1.3vw;
+}
+
+#ChrisTree16Container {
+    bottom: 45%;
+    right: 33%;
+    width: 0.48vw;
+    height: 1.15vw;
+}
+
+#ChrisTree17Container {
+    bottom: 45%;
+    right: 49%;
+    width: 0.48vw;
+    height: 1.15vw;
+}
+
+#ChrisTree18Container {
+    bottom: 45%;
+    right: 53%;
+    width: 0.49vw;
+    height: 1.1vw;
+}
+
+#ChrisTree19Container {
+    bottom: 50%;
+    left: 35%;
+    width: 0.44vw;
+    height: 1.1vw;
+}
+
+#ChrisTree20Container {
+    bottom: 50%;
+    left: 18%;
+    width: 0.41vw;
+    height: 1vw;
+}
+
+#ChrisTree21Container {
+    bottom: 50%;
+    left: 3%;
+    width: 0.44vw;
+    height: 1.1vw;
+}
+
+#ChrisTree22Container {
+    bottom: 53%;
+    right: 32%;
+    width: 0.36vw;
+    height: 0.9vw;
+}
+
+#ChrisTree23Container {
+    bottom: 53%;
+    right: 18%;
+    width: 0.36vw;
+    height: 0.9vw;
+}
+
+#ChrisTree24Container {
+    bottom: 53%;
+    right: 5%;
+    width: 0.36vw;
+    height: 0.9vw;
+}
+
+.treeContainer {
+    position: absolute;
+    transform-origin: center bottom;
+    animation: treeAnimation 2.5s linear 0s infinite alternate forwards;
+}
+
+#tree1Container {
+    bottom: 15%;
+    left: 32%;
+    width: 2vw;
+    height: 3vw;
+}
+
+#tree2Container {
+    bottom: 15%;
+    left: 30%;
+    width: 2.3vw;
+    height: 3.5vw;
+}
+
+#tree3Container {
+    bottom: 27%;
+    right: 27%;
+    width: 2vw;
+    height: 3vw;
+}
+
+#tree4Container {
+    bottom: 27%;
+    right: -0.5%;
+    width: 2vw;
+    height: 3vw;
+}
+
+#tree5Container {
+    bottom: 38%;
+    left: 23%;
+    width: 1.5vw;
+    height: 2.2vw;
+}
+
+#tree6Container {
+    bottom: 38%;
+    left: 3%;
+    width: 1.7vw;
+    height: 2.5vw;
+}
+
+#tree7Container {
+    bottom: 45%;
+    right: -0.6%;
+    width: 1.34vw;
+    height: 2vw;
+}
+
+#tree8Container {
+    bottom: 45%;
+    right: 8%;
+    width: 1.34vw;
+    height: 2.1vw;
+}
+
+#tree9Container {
+    bottom: 45%;
+    right: 55%;
+    width: 1.30vw;
+    height: 1.8vw;
+}
+
+#tree10Container {
+    bottom: 50%;
+    left: 49%;
+    width: 1.05vw;
+    height: 1.5vw;
+}
+
+#tree11Container {
+    bottom: 50%;
+    left: 32%;
+    width: 1.05vw;
+    height: 1.4vw;
+}
+
+#tree12Container {
+    bottom: 50%;
+    left: 12%;
+    width: 1vw;
+    height: 1.3vw;
+}
+
+#tree13Container {
+    bottom: 50%;
+    left: 48%;
+    width: 1vw;
+    height: 1.3vw;
+}
+
+#tree14Container {
+    bottom: 53%;
+    right: 33%;
+    width: 0.7vw;
+    height: 0.95vw;
+}
+
+#tree15Container {
+    bottom: 53%;
+    right: 15.5%;
+    width: 0.73vw;
+    height: 1vw;
+}
+
+#tree16Container {
+    bottom: 53%;
+    right: 15%;
+    width: 0.73vw;
+    height: 1.1vw;
+}
+
+#tree17Container {
+    bottom: 53%;
+    right: 2%;
+    width: 0.7vw;
+    height: 1vw;
+}
+
+
+.bushLeft {
+    height: 90%;
+    width: 70%;
+    position: absolute;
+    left: -50%;
+    bottom: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: linear-gradient(to bottom, #3b9758, #111532);
+}
+
+.bushRight {
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    right: -50%;
+    bottom: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: linear-gradient(to bottom, #3b9758, #111532);
+}
+
+.bushMid {
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: linear-gradient(to bottom, #3b9758, #111532);
+}
+
+.ChrisTreeLeavesContainer {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    bottom: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ChrisTreeLeave {
+    height: 15%;
+    margin-top: 7%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom, #3b9758, #111532);
+}
+
+.ChrisTreeLeave9 {
+    width: 100%;
+}
+
+.ChrisTreeLeave8 {
+    width: 90%;
+}
+
+.ChrisTreeLeave7 {
+    width: 80%;
+}
+
+.ChrisTreeLeave6 {
+    width: 70%;
+}
+
+.ChrisTreeLeave5 {
+    width: 60%;
+}
+
+.ChrisTreeLeave4 {
+    width: 50%;
+}
+
+.ChrisTreeLeave3 {
+    width: 40%;
+}
+
+.ChrisTreeLeave2 {
+    width: 30%;
+}
+
+.ChrisTreeLeave1 {
+    width: 20%;
+}
+
+.ChrisTreeTrunk {
+    width: 25%;
+    height: 50%;
+    background: linear-gradient(to bottom, #523a27, #271608);
+}
+
+.treeLeaves {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background: linear-gradient(to bottom, #3b9758, #111532);
+}
+
+.treeTrunk {
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom, #523a27, #271608);
+}

@@ -1,0 +1,193 @@
+
+.hill {
+    background: linear-gradient(to bottom, #9037af, #22133e 50%);
+    position: absolute;
+}
+
+.road {
+    background: linear-gradient(to bottom, #6a1d81, #1e052c 50%);
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+.roadClip {
+    background: linear-gradient(to bottom, #9037af, #22133e 50%);
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+#hill1 {
+    width: 67%;
+    height: 40%;
+    left: 0;
+    top: 85%;
+    border-top-right-radius: 10vw;
+    overflow: hidden;
+}
+
+#hill1 svg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    right: 0;
+    top: 0;
+}
+
+#hill1 .road {
+    width: 25%;
+    right: 18%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#hill1 .roadClip {
+    width: 15%;
+    right: 35%;
+}
+
+#hill2 {
+    width: 66%;
+    height:40%;
+    right: 0;
+    top: 73%;
+    border-top-left-radius: 10vw;
+    overflow: hidden;
+}
+
+#hill2 svg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+}
+
+#hill2 .road {
+    width: 30%;
+    left: 6%;
+    transform: skew(-30deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#hill2 .roadClip {
+    width: 20%;
+    left: 22%;
+}
+
+#hill3 {
+    width: 77%;
+    height: 40%;
+    left: 0;
+    top: 62%;
+    border-top-right-radius: 10vw;
+    overflow: hidden;
+}
+
+#hill3 svg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    right: 0;
+}
+
+#hill3 .road {
+    width: 21%;
+    right: 10%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: skew(20deg);
+}
+
+#hill3 .roadClip {
+    width: 13%;
+    right: 21%;
+}
+
+#hill4 {
+    width: 77%;
+    height: 25%;
+    right: 0;
+    top: 55%;
+    border-top-left-radius: 10vw;
+    overflow: hidden;
+}
+
+#hill4 svg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+}
+
+#hill4 .road {
+    width: 20%;
+    left: 29%;
+    transform: skew(-25deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#hill4 .roadClip {
+    width: 15%;
+    left: 38%;
+}
+
+#hill5 {
+    width: 74%;
+    height: 40%;
+    left: 0;
+    top: 50%;
+    border-top-right-radius: 10vw;
+    overflow: hidden;
+}
+
+#hill5 svg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    right: 0;
+}
+
+#hill5 .road {
+    width: 15%;
+    right: 6%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: skew(25deg);
+}
+
+#hill5 .roadClip {
+    width: 10%;
+    right: 12%;
+}
+
+#hill6 {
+    width: 68%;
+    height: 50%;
+    right: 0;
+    top: 47%;
+    border-top-left-radius: 8vw;
+    overflow: hidden;
+}
+
+#hill6 svg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+}
+
+#hill6 .road {
+    width: 25%;
+    left: 15%;
+    transform: skew(-25deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#hill6 .roadClip {
+    width: 22%;
+    left: 20%;
+}

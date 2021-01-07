@@ -1,0 +1,149 @@
+.windmillContainer {
+    position: absolute;
+}
+
+#windmill1Container {
+    width: 2vw;
+    height: 5vw;
+    left: 8vw;
+    bottom: 50%;
+}
+
+#windmill1FanContainer {
+    transform-origin: center center;
+    transform: rotate(0deg);
+}
+
+#windmill2Container {
+    width: 1.8vw;
+    height: 4.5vw;
+    left: 12vw;
+    bottom: 50%;
+}
+
+#windmill2FanContainer {
+    transform-origin: center center;
+    transform: rotate(-50deg);
+}
+
+
+#windmill3Container {
+    width: 1.4vw;
+    height: 3.5vw;
+    left: 18vw;
+    bottom: 50%;
+}
+
+#windmill3FanContainer {
+    transform-origin: center center;
+    transform: rotate(20deg);
+}
+
+#windmill4Container {
+    width: 2vw;
+    height: 5vw;
+    right: 17vw;
+    bottom: 53%;
+}
+
+#windmill4FanContainer {
+    transform-origin: center center;
+    transform: rotate(75deg);
+}
+
+#windmill5Container {
+    width: 1.4vw;
+    height: 3.5vw;
+    right: 5vw;
+    bottom: 53%;
+}
+
+#windmill5FanContainer {
+    transform-origin: center center;
+    transform: rotate(40deg);
+}
+
+.windmillBaseContainer {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.windmillLeg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background-color: #042206;
+}
+
+.windmillLegLeft {
+    transform: translateX(-65%) skew(-1deg);
+}
+
+.windmillLegRight {
+    transform: translateX(-45%) skew(1deg);
+}
+
+.windmillFanContainer {
+    width: 150%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: -25%;
+    animation: windmillAnimation 10s linear 0s infinite forwards;
+}
+
+@keyframes windmillAnimation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.fan {
+    width: 100%;
+    height: 3%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #031605;
+}
+
+.fan1 {
+    transform: rotate(30deg);
+}
+
+.fan2 {
+    transform: rotate(120deg);
+}
+
+.wing {
+    background-color: #083f2d;
+    position: absolute;
+    width: 35%;
+    height: 300%;
+}
+
+.wing1 {
+    bottom: 0;
+    right: -7%;
+}
+
+.wing2 {
+    top: 0;
+    left: -7%;
+}
+
+.windmillCircle {
+    width: 0.4vw;
+    height: 0.4vw;
+    background-color: #083f2d;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+}
